@@ -142,6 +142,7 @@ close-btn {
 
 .checkbox-input{
   display: none;
+  flex-direction: column;
 }
 
 /* Стилизация кастомного чекбокса */
