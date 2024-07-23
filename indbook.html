@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="./css/book.css">
+</head>
+
+<body>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <div class="div-close-modal">
+                <button class="btn-close-modal" data-modal-close>
+                    <svg class="svg-close" width="24" height="24">
+                        <use href="#close-icon" class="use-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="img-and-description">
+                <!-- Здесь должно быть содержимое изображения и описания -->
+            </div>
+            <div class="div-btn-modal">
+                <button class="btn-modal btn-modal-add-js is-hidden" type="submit">Add to shopping list</button>
+            </div>
+            <p class="under-modal-btn-text visually-hidden">
+                Congratulations! You have added the book to the shopping list.
+                To delete, press the button “Remove from the shopping list”.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="./jsbook.js"></script>
+</body>
+
+</html>
